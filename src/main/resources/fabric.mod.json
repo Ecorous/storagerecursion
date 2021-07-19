@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "storagerecursion",
-  "version": "${version}",
-  "name": "Storagerecursion",
+  "version": "1.0.0",
+  "name": "Storage Recursion",
   "description": "Allows putting shulkers inside shulkers",
   "authors": [
     "Exo"
@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.frogastudios.storagerecursion.client.StoragerecursionClient"
+      "com.frogastudios.storagerecursion.client.StorageRecursionClient"
     ],
     "main": [
-      "com.frogastudios.storagerecursion.Storagerecursion"
+      "com.frogastudios.storagerecursion.StorageRecursion"
     ]
   },
   "mixins": [

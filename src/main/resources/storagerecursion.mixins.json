@@ -4,6 +4,8 @@
   "package": "com.frogastudios.storagerecursion.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ShulkerBoxBlockEntityMixin",
+    "ShulkerBoxSlotMixin"
   ],
   "client": [
   ],
