@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "storagerecursion",
+  "version": "${version}",
+  "name": "Storagerecursion",
+  "description": "Allows putting shulkers inside shulkers",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {
+    "repo": "https://github.com/ExoPlant/storagerecursion"
+  },
+  "license": "MIT",
+  "icon": "assets/storagerecursion/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.storagerecursion.client.StoragerecursionClient"
+    ],
+    "main": [
+      "com.frogastudios.storagerecursion.Storagerecursion"
+    ]
+  },
+  "mixins": [
+    "storagerecursion.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
