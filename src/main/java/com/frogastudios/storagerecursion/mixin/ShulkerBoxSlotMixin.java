@@ -17,6 +17,6 @@ public abstract class ShulkerBoxSlotMixin
     @Inject(at = @At("HEAD"), method = "canInsert", cancellable = true)
     public void init(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
 
-        cir.setReturnValue(!(false));
+        cir.setReturnValue(true);
     }
 }
