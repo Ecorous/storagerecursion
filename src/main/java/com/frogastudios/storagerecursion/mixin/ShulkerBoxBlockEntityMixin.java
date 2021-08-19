@@ -18,6 +18,6 @@ public abstract class ShulkerBoxBlockEntityMixin
     @Inject(at = @At("HEAD"), method = "canInsert", cancellable = true)
     public void init(int slot, ItemStack stack, Direction dir, CallbackInfoReturnable<Boolean> cir) {
 
-        cir.setReturnValue(!(Block.getBlockFromItem(stack.getItem()) instanceof AirBlock));
+        cir.setReturnValue(true);
     }
 }
