@@ -11,7 +11,6 @@
     "repo": "https://github.com/ExoPlant/storagerecursion"
   },
   "license": "MIT",
-  "icon": "assets/storagerecursion/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -25,8 +24,8 @@
     "storagerecursion.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "fabric": "*",
-    "minecraft": "1.18.1"
+    "fabricloader": ">=0.14.17",
+    "fabric": ">=0.76.0",
+    "minecraft": "1.19.4"
   }
 }
