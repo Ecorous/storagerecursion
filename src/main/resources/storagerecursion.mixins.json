@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.frogastudios.storagerecursion.mixin",
+  "package": "org.ecorous.storagerecursion.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "ShulkerBoxBlockEntityMixin",
